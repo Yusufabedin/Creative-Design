@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="logo">CandyCrab</div>
+      <img src="image/bg.jpg" class="bg" />
+      <div class="content">
+        <h2>Let's Make <br />Something Creative</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consenter adipisicing elite. Quae pariahs
+          culpa nisi quod, quid's repellents? Sit odin, quia, rem non quam
+          official ipsum corporal consequently, at qui vel doit ex! Lorem, ipsum
+          dolor sit amet consenter adipisicing elite. Quae pariahs culpa nisi
+          quod
+        </p>
+        <a href="#"> Get Started</a>
+      </div>
+      <p class="copyrightText">Team CandyCrab</p>
+    </section>
+    <div class="menuToggle" onclick="toggleMenu()"></div>
+    <div class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="socialBar">
+        <ul>
+          <li>
+            <a href="https://facebook.com/arian.fahad"
+              ><img src="/image/facebook.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="http://instagram.com/yusufabedin"
+              ><img src="/image/instagram.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/yusuf_abedin"
+              ><img src="/image/twitter.png" alt=""
+            /></a>
+          </li>
+        </ul>
+        <a href="mailto:yusuf.abedin95@gmail.com" class="mailBx"
+          ><img src="/image/email.png" alt=""
+        /></a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function toggleMenu() {
+        var menuToggle = document.querySelector('.menuToggle')
+        var navigation = document.querySelector('.navigation')
+        menuToggle.classList.toggle('active')
+        navigation.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
